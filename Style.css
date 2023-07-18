@@ -187,24 +187,38 @@ body{
   padding: 20px;
   
 }
-@media screen   and (max-width: 576px) {
+@media screen   and (max-width: 570px) {
     .navigation{
         flex-direction: column;
         padding: 40px 40px;
        
     }
+    .navigation-title{
+        font-size: 25px;
+    }
+   
     .menu-list{
         margin-right: 25px;
-        font-size: 20px;
+        font-size: 17px;
         padding-top: 20px;
     }
     .heading-container{
         flex-direction: column;
     }
-    .main-camera{
-        width: 500px;
-        height: 500px;
+    .heading-trial{
+        font-size: 23px;
     }
+    .primary-button{
+        
+        padding: 17px;
+        font-size: 18px;
+        color: white;
+    }
+    .main-camera{
+        width: 400px;
+        height: 370px;
+    }
+    
     .companies{
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -217,8 +231,71 @@ body{
         width: 80px ;
         height: 80px ;
     }
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(1,0fr);
+    }
+   .bottom-section{
+    flex-direction: column;
+   }
+   .footer-section{
+    flex-direction: column;
+   }
 
 }
-@media screen and (min-width:577px) and (max-width 992px) {
+@media screen and (min-width:571px) and (max-width: 1000px) {
+    .navigation{
+        flex-direction: column;
+        padding: 40px 40px;
+       
+    }
+    .navigation-title{
+        font-size: 25px;
+    }
+   
+    .menu-list{
+        margin-right: 25px;
+        font-size: 17px;
+        padding-top: 20px;
+    }
+    .heading-container{
+        flex-direction: column;
+    }
+    .heading-trial{
+        font-size: 23px;
+    }
+    .primary-button{
+        
+        padding: 17px;
+        font-size: 18px;
+        color: white;
+    }
+    .main-camera{
+        width: 400px;
+        height: 370px;
+    }
     
+    .companies{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        border-bottom: 1px solid gray;
+        padding: 20px 40px;
+        height: 250px;
+        text-align: center;
+    }
+    .company-image{
+        width: 80px ;
+        height: 80px ;
+    }
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(2,0fr);
+    }
+   .bottom-section{
+    flex-direction: column;
+   }
+   .footer-section{
+    flex-direction: column;
+   }
+
 }
